@@ -1,0 +1,60 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+    <PreferenceCategory android:title="General">
+
+        <ListPreference
+            android:defaultValue="25"
+            android:entries="@array/pref_url_queue_max_titles"
+            android:entryValues="@array/pref_url_queue_max_values"
+            android:key="maximum_urls_pref"
+            android:summary="The maximum number of URLs that will be prepared for viewing before pausing the generator"
+            android:title="Max URLs" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="show_url_per_sec_check"
+            android:title="Show URL per second" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Image Filtering">
+
+        <EditTextPreference
+            android:key="minimum_width_images"
+            android:defaultValue="@integer/default_minimum_width_images"
+            android:numeric="integer"
+            android:phoneNumber="false"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Leave blank for no minimum"
+            android:title="Minimum width (px)" />
+        <EditTextPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="minimum_height_images"
+            android:defaultValue="@integer/default_minimum_height_images"
+            android:numeric="integer"
+            android:phoneNumber="false"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Leave blank for no minimum"
+            android:title="Minimum height (px)" />
+        <EditTextPreference
+            android:key="minimum_bytes"
+            android:numeric="integer"
+            android:phoneNumber="false"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Leave blank for no minimum"
+            android:title="Minimum kB" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="animation_exception"
+            android:title="Make exception for GIFs" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

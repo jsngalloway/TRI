@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="default_minimum_width_images">200</integer>
+    <integer name="default_minimum_height_images">200</integer>
+
+</resources>

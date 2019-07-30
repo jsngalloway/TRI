@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_switch"
+        android:title="Switch"
+        app:actionLayout="@layout/generator_switch_item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/open_in_app"
+        android:title="Open in imgur"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/image_details"
+        android:title="Image details"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/copy_to_clipboard"
+        android:title="Copy link to clipboard"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/item_settings"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="Settings"
+        app:showAsAction="never" />
+</menu>

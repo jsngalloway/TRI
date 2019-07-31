@@ -1,4 +1,4 @@
-package elfoe.trulyrandomimgur;
+package jsngalloway.trulyrandomimgur;
 
 import android.app.Activity;
 import android.content.Context;
@@ -17,7 +17,7 @@ import com.bumptech.glide.request.RequestOptions;
 import java.util.List;
 
 import androidx.recyclerview.widget.RecyclerView;
-import elfoe.trulyrandomimgur.ui.BigImageActivity;
+import jsngalloway.trulyrandomimgur.ui.BigImageActivity;
 
 public class FavoritesAdapter extends RecyclerView.Adapter<FavoritesAdapter.ViewHolder> {
     private List<ImageData> mImageData;

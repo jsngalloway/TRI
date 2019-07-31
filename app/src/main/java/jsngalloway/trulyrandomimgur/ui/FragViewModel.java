@@ -1,4 +1,4 @@
-package elfoe.trulyrandomimgur.ui;
+package jsngalloway.trulyrandomimgur.ui;
 
 import android.util.Log;
 import androidx.lifecycle.ViewModel;

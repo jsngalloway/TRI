@@ -1,20 +1,13 @@
-package elfoe.trulyrandomimgur;
+package jsngalloway.trulyrandomimgur;
 
-import android.app.Activity;
-import android.app.Application;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Handler;
 import android.preference.PreferenceManager;
-import android.util.Log;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashSet;
 import java.util.LinkedList;
-import java.util.Set;
 
-import elfoe.trulyrandomimgur.ui.TrulyRandom;
+import jsngalloway.trulyrandomimgur.ui.TrulyRandom;
 
 public class UrlList {
 

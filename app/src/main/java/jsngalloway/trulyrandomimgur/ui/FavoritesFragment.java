@@ -1,4 +1,4 @@
-package elfoe.trulyrandomimgur.ui;
+package jsngalloway.trulyrandomimgur.ui;
 
 import android.app.Activity;
 import android.content.Context;
@@ -24,10 +24,10 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import elfoe.trulyrandomimgur.Favorites;
-import elfoe.trulyrandomimgur.FavoritesAdapter;
-import elfoe.trulyrandomimgur.ImageData;
-import elfoe.trulyrandomimgur.R;
+import jsngalloway.trulyrandomimgur.Favorites;
+import jsngalloway.trulyrandomimgur.FavoritesAdapter;
+import jsngalloway.trulyrandomimgur.ImageData;
+import jsngalloway.trulyrandomimgur.R;
 
 public class FavoritesFragment extends Fragment {
 

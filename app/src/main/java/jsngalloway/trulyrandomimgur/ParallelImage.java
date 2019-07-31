@@ -1,4 +1,4 @@
-package elfoe.trulyrandomimgur;
+package jsngalloway.trulyrandomimgur;
 
 import android.util.Log;
 
@@ -6,7 +6,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.RequestOptions;
 
-import elfoe.trulyrandomimgur.ui.TrulyRandom;
+import jsngalloway.trulyrandomimgur.ui.TrulyRandom;
 
 public class ParallelImage implements Runnable {
     String url;

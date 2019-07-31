@@ -1,4 +1,4 @@
-package elfoe.trulyrandomimgur;
+package jsngalloway.trulyrandomimgur;
 
 import android.util.Log;
 

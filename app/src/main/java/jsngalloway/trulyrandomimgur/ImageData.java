@@ -1,4 +1,4 @@
-package elfoe.trulyrandomimgur;
+package jsngalloway.trulyrandomimgur;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

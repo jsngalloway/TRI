@@ -1,4 +1,4 @@
-package elfoe.trulyrandomimgur;
+package jsngalloway.trulyrandomimgur;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,8 +12,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-import elfoe.trulyrandomimgur.ui.FavoritesFragment;
-import elfoe.trulyrandomimgur.ui.TrulyRandom;
+import jsngalloway.trulyrandomimgur.ui.FavoritesFragment;
+import jsngalloway.trulyrandomimgur.ui.TrulyRandom;
 
 public class Navigation extends AppCompatActivity /*implements OnFragmentInteractionListener*/ {
 

@@ -1,4 +1,4 @@
-package elfoe.trulyrandomimgur.ui;
+package jsngalloway.trulyrandomimgur.ui;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -26,8 +26,8 @@ import java.io.File;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import elfoe.trulyrandomimgur.ImageData;
-import elfoe.trulyrandomimgur.R;
+import jsngalloway.trulyrandomimgur.ImageData;
+import jsngalloway.trulyrandomimgur.R;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.

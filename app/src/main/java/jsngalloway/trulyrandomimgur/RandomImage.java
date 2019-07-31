@@ -1,8 +1,6 @@
-package elfoe.trulyrandomimgur;
+package jsngalloway.trulyrandomimgur;
 
 import android.content.SharedPreferences;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
@@ -11,11 +9,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Scanner;
 
-import elfoe.trulyrandomimgur.ui.TrulyRandom;
+import jsngalloway.trulyrandomimgur.ui.TrulyRandom;
 
 public class RandomImage {
     String upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

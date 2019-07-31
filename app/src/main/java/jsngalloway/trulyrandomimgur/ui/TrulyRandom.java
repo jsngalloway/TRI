@@ -1,10 +1,9 @@
-package elfoe.trulyrandomimgur.ui;
+package jsngalloway.trulyrandomimgur.ui;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -33,11 +32,11 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
-import elfoe.trulyrandomimgur.Favorites;
-import elfoe.trulyrandomimgur.ImageData;
-import elfoe.trulyrandomimgur.R;
-import elfoe.trulyrandomimgur.UrlGenerator;
-import elfoe.trulyrandomimgur.UrlList;
+import jsngalloway.trulyrandomimgur.Favorites;
+import jsngalloway.trulyrandomimgur.ImageData;
+import jsngalloway.trulyrandomimgur.R;
+import jsngalloway.trulyrandomimgur.UrlGenerator;
+import jsngalloway.trulyrandomimgur.UrlList;
 
 //import android.content.Intent;
 

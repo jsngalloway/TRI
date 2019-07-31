@@ -5,7 +5,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "elfoe.trulyrandomimgur"
+        applicationId "jsngalloway.trulyrandomimgur"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1

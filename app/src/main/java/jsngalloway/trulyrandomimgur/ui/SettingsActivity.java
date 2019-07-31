@@ -1,4 +1,4 @@
-package elfoe.trulyrandomimgur.ui;
+package jsngalloway.trulyrandomimgur.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,7 +16,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import androidx.appcompat.widget.Toolbar;
-import elfoe.trulyrandomimgur.R;
+import jsngalloway.trulyrandomimgur.R;
 
 public class SettingsActivity extends AppCompatActivity {
     public static int MINIMUM_WIDTH;
